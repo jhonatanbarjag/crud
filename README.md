@@ -1,21 +1,27 @@
 # 🧠 API REST - CRUD de Usuarios con Node.js, Express y PostgreSQL
 
-Este es un proyecto práctico de una API RESTful que realiza operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una base de datos PostgreSQL. Está desarrollado usando **Node.js**, **Express**, y el módulo `pg`. Sirve como práctica para entender cómo funciona el backend, las rutas, controladores, middlewares, consultas SQL y la conexión a una base de datos.
+Este proyecto es una práctica personal donde desarrollé una API RESTful que realiza operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una base de datos PostgreSQL. Utilicé tecnologías modernas y buenas prácticas para organizar el backend de forma profesional.
 
 ---
 
-🚀 Tecnologías y herramientas utilizadas
-Tecnología	Descripción
-Node.js	Entorno de ejecución JavaScript
-Express.js	Framework web para Node.js
-PostgreSQL	Base de datos relacional
-pg	Cliente de PostgreSQL para Node.js
-DBeaver	Cliente visual para administrar bases de datos
-Render	Servicio en la nube donde se aloja la base de datos
-nodemon	Recarga automática del servidor en desarrollo
-morgan	Middleware para registrar peticiones HTTP
-Postman	(Externo) Para probar la API REST
-📁 Estructura del proyecto
+## 🚀 Tecnologías utilizadas
+
+- **Node.js** – Entorno de ejecución de JavaScript en backend
+- **Express.js** – Framework minimalista para construir APIs
+- **PostgreSQL** – Base de datos relacional
+- **pg** – Cliente oficial de PostgreSQL para Node.js
+- **DBeaver** – Cliente visual para administrar la base de datos
+- **Render** – Servicio donde alojé la base de datos remotamente
+- **Nodemon** – Reinicio automático del servidor en desarrollo
+- **Morgan** – Middleware para mostrar logs de peticiones
+- **Postman** – Herramienta para probar los endpoints
+- **dotenv** – (opcional) Para manejar variables de entorno de forma segura
+
+---
+
+## 📁 Estructura del proyecto
+
+
 /src
 │
 ├── controllers/ # Lógica de negocio
