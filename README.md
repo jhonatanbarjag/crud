@@ -1,5 +1,8 @@
-🧠 API REST - CRUD de Usuarios con Node.js, Express y PostgreSQL
-Este es un proyecto práctico de una API RESTful que realiza operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una base de datos PostgreSQL. Está desarrollado usando Node.js, Express, y el módulo pg. Sirve como práctica para entender cómo funciona el backend, las rutas, controladores, middlewares, consultas SQL y la conexión a una base de datos.
+# 🧠 API REST - CRUD de Usuarios con Node.js, Express y PostgreSQL
+
+Este es un proyecto práctico de una API RESTful que realiza operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una base de datos PostgreSQL. Está desarrollado usando **Node.js**, **Express**, y el módulo `pg`. Sirve como práctica para entender cómo funciona el backend, las rutas, controladores, middlewares, consultas SQL y la conexión a una base de datos.
+
+---
 
 🚀 Tecnologías y herramientas utilizadas
 Tecnología	Descripción
