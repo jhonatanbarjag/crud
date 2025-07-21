@@ -15,7 +15,7 @@ Este proyecto es una práctica personal donde desarrollé una API RESTful que re
 - **Nodemon** – Reinicio automático del servidor en desarrollo
 - **Morgan** – Middleware para mostrar logs de peticiones
 - **Postman** – Herramienta para probar los endpoints
-- **dotenv** – (opcional) Para manejar variables de entorno de forma segura
+
 
 ---
 
