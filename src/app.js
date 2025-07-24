@@ -1,6 +1,7 @@
 import express from 'express'; // Importamos express para crear el servidor
 import { connectDB } from './db.js'; // Importamos la función connectDB para conectar a la base de datos
 import userRoutes from './routes/user.route.js'; // Importamos las rutas de usuarios
+import morgan from 'morgan'; // Importamos morgan para el logging de peticiones
 
 
 const app = express(); // Creamos una instancia de express
@@ -8,6 +9,11 @@ const app = express(); // Creamos una instancia de express
 // es un middleware que permite recibir datos en formato JSON
 // y los convierte en un objeto de JavaScript accesible a través de req.body
 app.use(express.json());
+
+// Usamos morgan para registrar las peticiones HTTP en la consola
+app.use(morgan('dev'));
+
+
 
 
 const port = 3002; // Definimos el puerto en el que el servidor escuchará las peticiones
