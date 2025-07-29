@@ -1,5 +1,5 @@
 import express from 'express'; // Importamos express para crear el servidor
-import { connectDB } from './db.js'; // Importamos la función connectDB para conectar a la base de datos
+import { connectDB } from './config/db.js'; // Importamos la función para conectar a la base de datos
 import userRoutes from './routes/user.route.js'; // Importamos las rutas de usuarios
 import morgan from 'morgan'; // Importamos morgan para el logging de peticiones
 
